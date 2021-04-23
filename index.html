@@ -8,14 +8,16 @@
     <title>Change Background</title>
 </head>
 <body id="body">
-    <script>
+    <script type="text/javascript">
         function changeColor() {
             let colors = ['yellow', 'red', 'green', 'blue', 'black', 'orange', 'pink'];
             let x = Math.floor(Math.random()*colors.length);
             document.getElementById("body").style.backgroundColor = colors[x];
         }
     </script>
-
-    <button id="bt01" onclick="changeColor()">Change Background</button>
+<div class="button-container">
+    <button onclick="changeColor()">Change Background</button>
+</div>
+    
 </body>
 </html>
