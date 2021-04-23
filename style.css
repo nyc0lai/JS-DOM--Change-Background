@@ -1,0 +1,20 @@
+body {
+    background-color: skyblue;
+}
+
+#bt01 {
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 44%;
+    height: 50px;
+    width: 15%;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    margin: 4px 2px;
+    color: white;
+    background-color: brown;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
